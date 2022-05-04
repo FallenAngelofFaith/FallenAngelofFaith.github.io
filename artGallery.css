@@ -11,6 +11,7 @@
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    width: 100%;
 }
 
 #head-description {
