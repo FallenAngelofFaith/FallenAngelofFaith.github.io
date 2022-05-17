@@ -12,15 +12,16 @@ body {
 
 .navbar-item {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 15px;
     font-size: 25px;
 }
 
 #navbar {
     border-radius: 5px;
-    padding: 10px;
-    margin: 0 15px;
+    padding: 5px;
+    margin: 20px 50px;
     background-color: rgb(33, 24, 24);
+    overflow: hidden;
 }
 
 .nav-link {
@@ -30,22 +31,21 @@ body {
 footer {
     border-radius: 5px;
     padding: 5px;
-    margin: 10px 15px;
+    margin: 10px 50px;
     background-color: rgb(33, 24, 24);
     text-align: center;
-    width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
 .title {
     margin: 50px;
     padding: 200px;
+    overflow: hidden;
 }
 
 article {
     background-image: url('reference/firstPrint.jpg');
-    background-size: 600px 800px;
+    background-size: 500px 650px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -53,16 +53,18 @@ article {
 /* Word Styling */
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Great Vibes';
     letter-spacing: 2px;
+    overflow: visible;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: lighter;
     font-family: 'Cinzel';
     letter-spacing: 6px;
+    overflow: visible;
 }
 
 h1, h2, p{
